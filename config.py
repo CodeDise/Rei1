@@ -9,22 +9,22 @@ OWNER_ID = 6497757690
 MSG_EFFECT = 5046509860389126442
 
 SHORT_URL = "linkshortify.com" # shortner url 
-SHORT_API = "" 
-SHORT_TUT = "https://t.me/How_to_Download_7x/26"
+SHORT_API = "7a541402aeacbdbff361696add89bce2cf8afa4e" 
+SHORT_TUT = "https://t.me/How_to_Download_otx"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "642712"
-API_ID = ""
-API_HASH = ""
+TOKEN = "8166090265:AAHULimlPYlosVnlUnac6xgY9J-tPx9wONg"
+API_ID = "26944587"
+API_HASH = "7261a455f2a6159b8a2fbfecd1a63004"
 WORKERS = 5
 
-DB_URI = "mongodb"
+DB_URI = "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "yato"
 
-FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1002490852825, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =    # just put channel id dont add ""
+DB_CHANNEL = [-1003137762356] # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
