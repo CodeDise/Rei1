@@ -19,8 +19,8 @@ from logging.handlers import RotatingFileHandler
 #--------------------------------------------
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8563304709:AAFt4GhJSlMAL31IH2cvi2hdE678zDVwwDY")
-APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
+APP_ID = int(os.environ.get("APP_ID", "26944587")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388")) #Your db channel Id
@@ -67,7 +67,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @nova_flix</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ᴘᴏᴡᴇʀ ʙʏ <a href=https://t.me/nohara_network>ɴᴏʜᴀʀᴀ ɴᴇᴛᴡᴏʀᴋ</a></b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
